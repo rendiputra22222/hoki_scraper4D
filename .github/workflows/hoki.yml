@@ -1,8 +1,6 @@
 name: Run HOKI Scraper
 
 on:
-  schedule:
-    - cron: '20 * * * *'
   workflow_dispatch:
 
 jobs:
